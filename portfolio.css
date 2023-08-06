@@ -1,0 +1,117 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
+}
+html {
+    background-image: url(hojas.jpeg);
+    background-size: 300%;
+    background-blend-mode: color;
+    font-family: myFirstFont;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 25%;
+}
+
+ body {
+    margin: 5%;
+ }   
+
+.titulo {
+    border-style: groove;
+    letter-spacing: 0.4em;
+    background-color: #11111192;
+}
+
+h1 {
+    size: 150px;
+}
+
+    
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 10%;
+  background-color: #11111192;
+}
+
+.menu li a {
+    display: block;
+    border-bottom: 1px solid #bbb;
+    text-align: center;
+  }
+
+.menu a {
+    float: inline-end;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.menu li a:hover {
+    background-color: rgb(10, 47, 18);
+    margin-left: 20%;
+    font-size: 20px;
+    transition-duration: 4ms;
+
+}
+
+#foto {
+    width: 70%;
+    padding: 5%;
+    margin-left: 20%;
+    align-self: center;
+}
+
+hr {
+    margin-left: 15%;
+}
+.about h2 {
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 20px;
+    border-style: double;
+    text-align: center;
+    font-size: 25px;
+    background-color: #11111192;
+}
+
+.about p {
+    margin-right: 10% ;
+    margin-left: 20% ;
+    padding: 10px ;
+    font-size: larger ;
+    text-align:justify ;
+    background-color: #111;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+.about form label {
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    background-color:#111;
+}
+
+.about ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.about a {
+    float: center;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration:underline;
+    font-size: 20px;
+}
